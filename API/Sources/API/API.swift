@@ -38,10 +38,21 @@ public struct API: APIInterface {
 
 
 private extension API {
-    enum APIError: Error {
+    enum APIError: LocalizedError {
         case noData
         case invalidResponse
         case invalidStatusCode(Int)
+        
+        var errorDescription: String? {
+            switch self {
+            case .noData:
+                "No data"
+            case .invalidResponse:
+                "Invalid response"
+            case .invalidStatusCode(let code):
+                "Invalid response status code :\(code)"
+            }
+        }
     }
     
     func checkResponse(_ response: URLResponse) throws {

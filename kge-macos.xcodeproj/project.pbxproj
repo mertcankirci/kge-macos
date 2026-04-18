@@ -13,6 +13,7 @@
 /* Begin PBXFileReference section */
 		545E45082F9147D800BD083B /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = API; sourceTree = "<group>"; };
 		54F08B622F9143330008877D /* kge-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kge-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FDA8502F941E0D00C4B25E /* PersistenceKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PersistenceKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +46,7 @@
 		54F08B592F9143330008877D = {
 			isa = PBXGroup;
 			children = (
+				54FDA8502F941E0D00C4B25E /* PersistenceKit */,
 				545E45082F9147D800BD083B /* API */,
 				54F08B642F9143330008877D /* kge-macos */,
 				545E45092F9147E200BD083B /* Frameworks */,
