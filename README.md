@@ -10,4 +10,5 @@ First thing's first: the goal of this project is for every contributor to truly 
 
 ---
 *Developed with focus and dedication to the craft.*
+--
 *Kirci*
