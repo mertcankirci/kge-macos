@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../Fonts")
+        .package(path: "../Fonts"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "Extensions",
             dependencies: [
-                .product(name: "Fonts", package: "Fonts")
+                .product(name: "Fonts", package: "Fonts"),
             ]
         ),
 
