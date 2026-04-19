@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<!-- Cormorant Garamond – Variable -->
+		<string>CormorantGaramond-VariableFont_wght.ttf</string>
+		<string>CormorantGaramond-Italic-VariableFont_wght.ttf</string>
+		<!-- Cormorant Garamond – Static -->
+		<string>CormorantGaramond-Light.ttf</string>
+		<string>CormorantGaramond-LightItalic.ttf</string>
+		<string>CormorantGaramond-Regular.ttf</string>
+		<string>CormorantGaramond-Italic.ttf</string>
+		<string>CormorantGaramond-Medium.ttf</string>
+		<string>CormorantGaramond-MediumItalic.ttf</string>
+		<string>CormorantGaramond-SemiBold.ttf</string>
+		<string>CormorantGaramond-SemiBoldItalic.ttf</string>
+		<string>CormorantGaramond-Bold.ttf</string>
+		<string>CormorantGaramond-BoldItalic.ttf</string>
+		<!-- Inter – Variable -->
+		<string>Inter-VariableFont_opsz,wght.ttf</string>
+		<string>Inter-Italic-VariableFont_opsz,wght.ttf</string>
+		<!-- Inter – Static 18pt -->
+		<string>Inter_18pt-Thin.ttf</string>
+		<string>Inter_18pt-ThinItalic.ttf</string>
+		<string>Inter_18pt-ExtraLight.ttf</string>
+		<string>Inter_18pt-ExtraLightItalic.ttf</string>
+		<string>Inter_18pt-Light.ttf</string>
+		<string>Inter_18pt-LightItalic.ttf</string>
+		<string>Inter_18pt-Regular.ttf</string>
+		<string>Inter_18pt-Italic.ttf</string>
+		<string>Inter_18pt-Medium.ttf</string>
+		<string>Inter_18pt-MediumItalic.ttf</string>
+		<string>Inter_18pt-SemiBold.ttf</string>
+		<string>Inter_18pt-SemiBoldItalic.ttf</string>
+		<string>Inter_18pt-Bold.ttf</string>
+		<string>Inter_18pt-BoldItalic.ttf</string>
+		<string>Inter_18pt-ExtraBold.ttf</string>
+		<string>Inter_18pt-ExtraBoldItalic.ttf</string>
+		<string>Inter_18pt-Black.ttf</string>
+		<string>Inter_18pt-BlackItalic.ttf</string>
+		<!-- Inter – Static 24pt -->
+		<string>Inter_24pt-Thin.ttf</string>
+		<string>Inter_24pt-ThinItalic.ttf</string>
+		<string>Inter_24pt-ExtraLight.ttf</string>
+		<string>Inter_24pt-ExtraLightItalic.ttf</string>
+		<string>Inter_24pt-Light.ttf</string>
+		<string>Inter_24pt-LightItalic.ttf</string>
+		<string>Inter_24pt-Regular.ttf</string>
+		<string>Inter_24pt-Italic.ttf</string>
+		<string>Inter_24pt-Medium.ttf</string>
+		<string>Inter_24pt-MediumItalic.ttf</string>
+		<string>Inter_24pt-SemiBold.ttf</string>
+		<string>Inter_24pt-SemiBoldItalic.ttf</string>
+		<string>Inter_24pt-Bold.ttf</string>
+		<string>Inter_24pt-BoldItalic.ttf</string>
+		<string>Inter_24pt-ExtraBold.ttf</string>
+		<string>Inter_24pt-ExtraBoldItalic.ttf</string>
+		<string>Inter_24pt-Black.ttf</string>
+		<string>Inter_24pt-BlackItalic.ttf</string>
+		<!-- Inter – Static 28pt -->
+		<string>Inter_28pt-Thin.ttf</string>
+		<string>Inter_28pt-ThinItalic.ttf</string>
+		<string>Inter_28pt-ExtraLight.ttf</string>
+		<string>Inter_28pt-ExtraLightItalic.ttf</string>
+		<string>Inter_28pt-Light.ttf</string>
+		<string>Inter_28pt-LightItalic.ttf</string>
+		<string>Inter_28pt-Regular.ttf</string>
+		<string>Inter_28pt-Italic.ttf</string>
+		<string>Inter_28pt-Medium.ttf</string>
+		<string>Inter_28pt-MediumItalic.ttf</string>
+		<string>Inter_28pt-SemiBold.ttf</string>
+		<string>Inter_28pt-SemiBoldItalic.ttf</string>
+		<string>Inter_28pt-Bold.ttf</string>
+		<string>Inter_28pt-BoldItalic.ttf</string>
+		<string>Inter_28pt-ExtraBold.ttf</string>
+		<string>Inter_28pt-ExtraBoldItalic.ttf</string>
+		<string>Inter_28pt-Black.ttf</string>
+		<string>Inter_28pt-BlackItalic.ttf</string>
+		<!-- JetBrains Mono – Variable -->
+		<string>JetBrainsMono-VariableFont_wght.ttf</string>
+		<string>JetBrainsMono-Italic-VariableFont_wght.ttf</string>
+		<!-- JetBrains Mono – Static -->
+		<string>JetBrainsMono-Thin.ttf</string>
+		<string>JetBrainsMono-ThinItalic.ttf</string>
+		<string>JetBrainsMono-ExtraLight.ttf</string>
+		<string>JetBrainsMono-ExtraLightItalic.ttf</string>
+		<string>JetBrainsMono-Light.ttf</string>
+		<string>JetBrainsMono-LightItalic.ttf</string>
+		<string>JetBrainsMono-Regular.ttf</string>
+		<string>JetBrainsMono-Italic.ttf</string>
+		<string>JetBrainsMono-Medium.ttf</string>
+		<string>JetBrainsMono-MediumItalic.ttf</string>
+		<string>JetBrainsMono-SemiBold.ttf</string>
+		<string>JetBrainsMono-SemiBoldItalic.ttf</string>
+		<string>JetBrainsMono-Bold.ttf</string>
+		<string>JetBrainsMono-BoldItalic.ttf</string>
+		<string>JetBrainsMono-ExtraBold.ttf</string>
+		<string>JetBrainsMono-ExtraBoldItalic.ttf</string>
+	</array>
+</dict>
 </plist>
