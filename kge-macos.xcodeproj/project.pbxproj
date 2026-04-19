@@ -6,13 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		545E450B2F9147E200BD083B /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 545E450A2F9147E200BD083B /* API */; };
+		54FDA8532F942CFE00C4B25E /* PersistenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FDA8522F942CFE00C4B25E /* PersistenceKit */; };
+		54FDA8552F942D0300C4B25E /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FDA8542F942D0300C4B25E /* CalendarKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		545E45082F9147D800BD083B /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = API; sourceTree = "<group>"; };
 		54F08B622F9143330008877D /* kge-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kge-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FDA8502F941E0D00C4B25E /* PersistenceKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PersistenceKit; sourceTree = "<group>"; };
+		54FDA8512F942CF600C4B25E /* CalendarKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CalendarKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		54FDA8572F942DC800C4B25E /* Exceptions for "kge-macos" folder in "kge-macos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 54F08B612F9143330008877D /* kge-macos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		54F08B642F9143330008877D /* kge-macos */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				54FDA8572F942DC800C4B25E /* Exceptions for "kge-macos" folder in "kge-macos" target */,
+			);
 			path = "kge-macos";
 			sourceTree = "<group>";
 		};
@@ -23,16 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545E450B2F9147E200BD083B /* API in Frameworks */,
+				54FDA8552F942D0300C4B25E /* CalendarKit in Frameworks */,
+				54FDA8532F942CFE00C4B25E /* PersistenceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545E45092F9147E200BD083B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54F08B592F9143330008877D = {
 			isa = PBXGroup;
 			children = (
+				54FDA8512F942CF600C4B25E /* CalendarKit */,
+				54FDA8502F941E0D00C4B25E /* PersistenceKit */,
+				545E45082F9147D800BD083B /* API */,
 				54F08B642F9143330008877D /* kge-macos */,
+				545E45092F9147E200BD083B /* Frameworks */,
 				54F08B632F9143330008877D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +101,9 @@
 			);
 			name = "kge-macos";
 			packageProductDependencies = (
+				545E450A2F9147E200BD083B /* API */,
+				54FDA8522F942CFE00C4B25E /* PersistenceKit */,
+				54FDA8542F942D0300C4B25E /* CalendarKit */,
 			);
 			productName = "kge-macos";
 			productReference = 54F08B622F9143330008877D /* kge-macos.app */;
@@ -259,11 +298,15 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kge-macos/Info.plist";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We need your Calendar access to retrieve and create KGE events.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "We need to access your reminders to retrieve and create KGE reminders.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mertcankirci.kge-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +334,15 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kge-macos/Info.plist";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "We need your Calendar access to retrieve and create KGE events.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "We need to access your reminders to retrieve and create KGE reminders.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mertcankirci.kge-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,6 +378,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		545E450A2F9147E200BD083B /* API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = API;
+		};
+		54FDA8522F942CFE00C4B25E /* PersistenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PersistenceKit;
+		};
+		54FDA8542F942D0300C4B25E /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54F08B5A2F9143330008877D /* Project object */;
 }
