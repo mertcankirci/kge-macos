@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		543FB4432F94E34000509D6B /* PermissionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 543FB4422F94E34000509D6B /* PermissionKit */; };
+		543FB44E2F94F44E00509D6B /* Fonts in Frameworks */ = {isa = PBXBuildFile; productRef = 543FB44D2F94F44E00509D6B /* Fonts */; };
+		543FB4532F9501C700509D6B /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 543FB4522F9501C700509D6B /* Extensions */; };
 		545E450B2F9147E200BD083B /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 545E450A2F9147E200BD083B /* API */; };
 		54FDA8532F942CFE00C4B25E /* PersistenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FDA8522F942CFE00C4B25E /* PersistenceKit */; };
 		54FDA8552F942D0300C4B25E /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FDA8542F942D0300C4B25E /* CalendarKit */; };
@@ -15,6 +17,8 @@
 
 /* Begin PBXFileReference section */
 		543FB4412F94E22600509D6B /* PermissionKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PermissionKit; sourceTree = "<group>"; };
+		543FB44C2F94F43E00509D6B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Fonts; sourceTree = "<group>"; };
+		543FB4512F95019000509D6B /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Extensions; sourceTree = "<group>"; };
 		545E45082F9147D800BD083B /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = API; sourceTree = "<group>"; };
 		54F08B622F9143330008877D /* kge-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kge-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FDA8502F941E0D00C4B25E /* PersistenceKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PersistenceKit; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543FB4532F9501C700509D6B /* Extensions in Frameworks */,
+				543FB44E2F94F44E00509D6B /* Fonts in Frameworks */,
 				545E450B2F9147E200BD083B /* API in Frameworks */,
 				54FDA8552F942D0300C4B25E /* CalendarKit in Frameworks */,
 				543FB4432F94E34000509D6B /* PermissionKit in Frameworks */,
@@ -67,6 +73,8 @@
 		54F08B592F9143330008877D = {
 			isa = PBXGroup;
 			children = (
+				543FB4512F95019000509D6B /* Extensions */,
+				543FB44C2F94F43E00509D6B /* Fonts */,
 				543FB4412F94E22600509D6B /* PermissionKit */,
 				54FDA8512F942CF600C4B25E /* CalendarKit */,
 				54FDA8502F941E0D00C4B25E /* PersistenceKit */,
@@ -109,6 +117,8 @@
 				54FDA8522F942CFE00C4B25E /* PersistenceKit */,
 				54FDA8542F942D0300C4B25E /* CalendarKit */,
 				543FB4422F94E34000509D6B /* PermissionKit */,
+				543FB44D2F94F44E00509D6B /* Fonts */,
+				543FB4522F9501C700509D6B /* Extensions */,
 			);
 			productName = "kge-macos";
 			productReference = 54F08B622F9143330008877D /* kge-macos.app */;
@@ -388,6 +398,14 @@
 		543FB4422F94E34000509D6B /* PermissionKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PermissionKit;
+		};
+		543FB44D2F94F44E00509D6B /* Fonts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fonts;
+		};
+		543FB4522F9501C700509D6B /* Extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extensions;
 		};
 		545E450A2F9147E200BD083B /* API */ = {
 			isa = XCSwiftPackageProductDependency;
