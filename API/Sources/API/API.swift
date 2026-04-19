@@ -4,14 +4,14 @@
 import Foundation
 
 public protocol APIInterface {
-    func get<T: Codable>(from request: URLRequest) async throws -> T
-    func post<T: Codable>(for request: URLRequest) async throws -> T
+    static func get<T: Codable>(from request: URLRequest) async throws -> T
+    static func post<T: Codable>(for request: URLRequest) async throws -> T
 }
 
 public struct API: APIInterface {
-    private let decoder = JSONDecoder()
+    private static let decoder = JSONDecoder()
     
-    public func get<T>(from request: URLRequest) async throws -> T where T : Decodable, T : Encodable {
+    public static func get<T>(from request: URLRequest) async throws -> T where T : Decodable, T : Encodable {
         do {
             let (data, response) = try await URLSession.shared.data(for: request)
             try checkResponse(response)
@@ -23,7 +23,7 @@ public struct API: APIInterface {
         }
     }
     
-    public func post<T>(for request: URLRequest) async throws -> T where T : Decodable, T : Encodable {
+    public static func post<T>(for request: URLRequest) async throws -> T where T : Decodable, T : Encodable {
         do {
             let (data, response) = try await URLSession.shared.data(for: request)
             try checkResponse(response)
@@ -55,7 +55,7 @@ private extension API {
         }
     }
     
-    func checkResponse(_ response: URLResponse) throws {
+    static func checkResponse(_ response: URLResponse) throws {
         guard let httpResponse = response as? HTTPURLResponse else  {
             throw APIError.invalidResponse
         }
