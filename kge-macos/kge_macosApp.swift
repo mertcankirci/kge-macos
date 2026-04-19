@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import Fonts
 
 @main
 struct kge_macosApp: App {
+    
+    init() {
+        Fonts.registerAll()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
