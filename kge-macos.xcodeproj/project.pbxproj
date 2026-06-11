@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54015BA62FDB1D5D00053C1F /* FeatureKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FeatureKit; sourceTree = "<group>"; };
 		543FB4412F94E22600509D6B /* PermissionKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PermissionKit; sourceTree = "<group>"; };
 		543FB44C2F94F43E00509D6B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Fonts; sourceTree = "<group>"; };
 		543FB4512F95019000509D6B /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Extensions; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		54F08B592F9143330008877D = {
 			isa = PBXGroup;
 			children = (
+				54015BA62FDB1D5D00053C1F /* FeatureKit */,
 				5496CC642F952D9800A0789E /* LogKit */,
 				543FB4512F95019000509D6B /* Extensions */,
 				543FB44C2F94F43E00509D6B /* Fonts */,
