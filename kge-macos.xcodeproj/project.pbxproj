@@ -10,6 +10,7 @@
 		543FB4432F94E34000509D6B /* PermissionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 543FB4422F94E34000509D6B /* PermissionKit */; };
 		543FB44E2F94F44E00509D6B /* Fonts in Frameworks */ = {isa = PBXBuildFile; productRef = 543FB44D2F94F44E00509D6B /* Fonts */; };
 		543FB4532F9501C700509D6B /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 543FB4522F9501C700509D6B /* Extensions */; };
+		545A584A2FDB219200950A06 /* FeatureKit in Frameworks */ = {isa = PBXBuildFile; productRef = 545A58492FDB219200950A06 /* FeatureKit */; };
 		545E450B2F9147E200BD083B /* API in Frameworks */ = {isa = PBXBuildFile; productRef = 545E450A2F9147E200BD083B /* API */; };
 		5496CC662F952DA300A0789E /* LogKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5496CC652F952DA300A0789E /* LogKit */; };
 		54FDA8532F942CFE00C4B25E /* PersistenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 54FDA8522F942CFE00C4B25E /* PersistenceKit */; };
@@ -60,6 +61,7 @@
 				545E450B2F9147E200BD083B /* API in Frameworks */,
 				54FDA8552F942D0300C4B25E /* CalendarKit in Frameworks */,
 				543FB4432F94E34000509D6B /* PermissionKit in Frameworks */,
+				545A584A2FDB219200950A06 /* FeatureKit in Frameworks */,
 				54FDA8532F942CFE00C4B25E /* PersistenceKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +128,7 @@
 				543FB44D2F94F44E00509D6B /* Fonts */,
 				543FB4522F9501C700509D6B /* Extensions */,
 				5496CC652F952DA300A0789E /* LogKit */,
+				545A58492FDB219200950A06 /* FeatureKit */,
 			);
 			productName = "kge-macos";
 			productReference = 54F08B622F9143330008877D /* kge-macos.app */;
@@ -413,6 +416,10 @@
 		543FB4522F9501C700509D6B /* Extensions */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Extensions;
+		};
+		545A58492FDB219200950A06 /* FeatureKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureKit;
 		};
 		545E450A2F9147E200BD083B /* API */ = {
 			isa = XCSwiftPackageProductDependency;

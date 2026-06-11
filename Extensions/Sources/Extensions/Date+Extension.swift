@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+public extension Date {
+    func formattedUppercaseAbbreviatedDate() -> String {
+        self.formatted(
+            .dateTime
+            .weekday(.abbreviated)
+            .day(.defaultDigits)
+            .month(.abbreviated)
+        ).uppercased()
+    }
+}
